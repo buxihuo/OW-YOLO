@@ -3,12 +3,12 @@
       涨点还有很大的潜力，正在改进，下表为初代版本实验结果对比。
 
 ### coco数据集
-|Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
-|---                  |---  |---    |---    
-|YOLOv5s              |640  |37.4   |56.8  
-|unknown-YOLOv5s      |640  |微涨   |数值稍后更新
-|YOLOv5x              |640  |50.7   |68.9   
-|unknown-YOLOv5x      |640  |50.9   |69.3        
+|Model |size<br><sup>(pixels) |batch |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
+|---                  |---  |---    |---    |---   
+|YOLOv5s              |640  |128    |37.4   |56.8  
+|unknown-YOLOv5s      |640  |64     |数值稍后 |
+|YOLOv5x              |640  |128    |50.7   |68.9   
+|unknown-YOLOv5x      |640  |64     |50.9   |69.3        
   
 ### voc数据集
 |Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
