@@ -26,4 +26,4 @@
   [images.zip](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/images.zip)<br>
   
 ### 检测示例
-![000000022396](https://user-images.githubusercontent.com/84908793/160353223-21156bd7-523d-4087-b9ad-1a5795ce33b0.jpg)
+![image](https://user-images.githubusercontent.com/84908793/162931434-dc4da5c4-7916-4cee-af1c-a2f1037d1bf1.png)
