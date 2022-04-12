@@ -22,7 +22,7 @@
 
 ### 预训练模型和示例图像下载地址
   [unknown-yolov5s](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/unknown-yolov5s.pt)<br>
-  [unknown-yolov5s](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/unknown-yolov5x.pt)<br>
+  [unknown-yolov5x](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/unknown-yolov5x.pt)<br>
   [images.zip](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/images.zip)<br>
   
 ### 检测示例
