@@ -1,8 +1,12 @@
 # unknown-yolo
 简介：<br>
 不增加推理训练成本，使yolov5-6.0涨点的同时具有一定程度检测未知物体的能力，代码大概今年毕业后开源。<br>
-网络结构未发生变化，仅增加了一个分类（80—81）和修改损失函数。<br>
-涨点还有很大的潜力，正在改进，下表为初代版本实验结果对比。
+网络结构未发生变化，仅增加了一个分类（80—81）和修改损失函数。下表为初代版本实验结果对比。
+
+Introduction:<br>
+Without increasing the cost of reasoning training, the map of yolov5-6.0 is slightly improved and has the ability to detect unknown objects to a certain extent. The code will be open source after graduation this year.<br>
+The network structure has not changed, only a classification (80-81) is added and the loss function is modified.
+The following table shows the comparison of experimental results of the first generation version.
 
 ### coco数据集
 |Model |size<br><sup>(pixels) |batch |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
