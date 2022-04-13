@@ -1,4 +1,5 @@
 # unknown-yolo
+<br>![image](https://user-images.githubusercontent.com/84908793/162931434-dc4da5c4-7916-4cee-af1c-a2f1037d1bf1.png)<br><br>
 简介：<br>
 不增加推理训练成本，使yolov5-6.0涨点的同时具有一定程度检测未知物体的能力，代码大概今年毕业后开源。<br>
 网络结构未发生变化，仅增加了一个分类（80—81）和修改损失函数。下表为初代版本实验结果对比。
@@ -16,9 +17,6 @@ The following table shows the comparison of experimental results of the first ge
 |YOLOv5x              |640  |128    |50.7   |68.9   
 |unknown-YOLOv5x      |640  |64     |50.9   |69.3     
 
-### 检测示例
-![image](https://user-images.githubusercontent.com/84908793/162931434-dc4da5c4-7916-4cee-af1c-a2f1037d1bf1.png)
-  
 ### voc数据集
 |Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
 |---                  |---  |---    |---    
