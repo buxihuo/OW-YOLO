@@ -11,6 +11,7 @@ The following table shows the comparison of experimental results of the first ge
 
 ### 主要技术
 luck：learn uncorrect and confusing knowledge 学习不正确的混淆的知识<br>
+适用于分类与回归统一的半软标签<br>
 sls: self lable smoothing 自标签平滑（实验中）
 
 ### coco数据集
@@ -26,6 +27,7 @@ sls: self lable smoothing 自标签平滑（实验中）
 |---                  |---  |---    |---    
 |YOLOv5s              |512  |62.4   |86.7 
 |unknown-YOLOv5s      |512  |62.4   |86.8 
+|unknown-YOLOv5s +  semi-soft lable    |512  |62.6   |87
 |YOLOv5x              |512  |74.6   |91.9/92.1   
 |unknown-YOLOv5x      |512  |74.7   |92.2        
 
