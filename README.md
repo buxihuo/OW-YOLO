@@ -23,13 +23,13 @@ sls: self lable smoothing 自标签平滑（实验中）
 |unknown-YOLOv5x      |640  |64     |50.9   |69.3     
 
 ### voc数据集
-|Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
-|---                        |---  |---    |---    
-|YOLOv5s                    |512  |62.4   |86.7 
-|unknown-YOLOv5s            |512  |62.4   |86.8 
-|un-5s + semi-soft lable    |512  |62.6   |86.9
-|YOLOv5x                    |512  |74.6   |91.9/92.1   
-|unknown-YOLOv5x            |512  |74.7   |92.2    
+|Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |pre(coco)
+|---                        |---  |---    |---       |---   
+|YOLOv5s                    |512  |62.4   |86.7      |5s
+|unknown-YOLOv5s            |512  |62.4   |86.8      |un-5s 
+|un-5s + semi-soft lable    |512  |62.6   |86.9      |un-5s
+|YOLOv5x                    |512  |74.6   |91.9/92.1 |5x
+|unknown-YOLOv5x            |512  |74.7   |92.2      |un-5x
 |un-5x + semi-soft lable    |512  |   |
 
 ### 预训练模型和示例图像下载地址
