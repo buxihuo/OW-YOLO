@@ -10,8 +10,8 @@ The network structure has not changed, only a classification (80-81) is added an
 The following table shows the comparison of experimental results of the first generation version.
 
 ### 主要技术
-luck：learn uncorrect and confusing knowledge 学习不正确的混淆的知识<br>
-sls: self lable smoothing 自标签平滑（实验中）
+luck<br>
+sls
 
 ### coco数据集
 |Model |size<br><sup>(pixels) |batch |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
