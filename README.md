@@ -4,11 +4,11 @@
 ### 不同风格图像与视频对比展示
 |Model                |Yolov5x |unknown-Yolov5x |
 |---                  |---  |---  
-|电影                 |![image](https://user-images.githubusercontent.com/84908793/167085804-5c09d3fc-86d4-4cee-9332-022df4893c00.png) |![image](https://user-images.githubusercontent.com/84908793/167085875-ea95cab2-6ed5-42d2-a46e-bd118c61275c.png)
-|游戏                 |![image](https://user-images.githubusercontent.com/84908793/167086513-7473fb8a-efb2-4c9f-9f65-98b8bbe2da90.png) |![image](https://user-images.githubusercontent.com/84908793/167086544-ada61b28-2d27-4d76-ae7c-ddae466e5f96.png)
-|漫画                 |![image](https://user-images.githubusercontent.com/84908793/167086664-c07f3e3b-d6f3-4261-8333-912886eb3d20.png) |![image](https://user-images.githubusercontent.com/84908793/167086687-eaace9c4-71be-4f12-bbe4-5a0a80725529.png)
+|电影                 |![图片 43](https://user-images.githubusercontent.com/84908793/167087873-bcba6a22-9798-4d51-b9f5-b610c8fe1a51.png) |![图片 37](https://user-images.githubusercontent.com/84908793/167087888-e4749d62-4bec-47ab-b235-9dcd45cd5440.png)
+|游戏                 |![图片 2](https://user-images.githubusercontent.com/84908793/167087802-40ef99d0-2658-444a-b02f-df258e1538b1.png)  |![图片 1](https://user-images.githubusercontent.com/84908793/167087825-98c33a0c-4345-4f51-bb2e-6fe7bd96b182.png)
+|漫画                 |![图片 46](https://user-images.githubusercontent.com/84908793/167087540-c109830f-3a0c-42d6-8948-61c96a3925aa.png) |![图片 47](https://user-images.githubusercontent.com/84908793/167087925-5332b077-9481-44a4-af93-0c1c4e175ff1.png)
+|动漫                 |![图片 4](https://user-images.githubusercontent.com/84908793/167087943-bd4179c6-0f24-4721-810d-deb3e17b8eed.png)  |![图片 3](https://user-images.githubusercontent.com/84908793/167087955-18f042b2-5658-40e6-99fb-f43562051ebe.png)
 
-|动漫                 |![image](https://user-images.githubusercontent.com/84908793/167086743-a73c0352-e0e5-45d6-9246-afed20c13d9b.png) |![image](https://user-images.githubusercontent.com/84908793/167086764-3236c5c0-7dc0-4d9e-89be-10b6b4bc8edd.png)
 
 
 
