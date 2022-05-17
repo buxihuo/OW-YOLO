@@ -28,6 +28,6 @@
 |YOLOv5x                    |512  |74.6   |91.9/92.1 |5x
 |Luck-YOLOv5x            |512  |74.7   |92.2      |un-5
 
-### 预训练模型和示例图像下载地址
+### 预训练模型
   [Luck-yolov5s](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/Luck-yolov5s.pt)<br>
   [Luck-yolov5x](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/Luck-yolov5x.pt)<br>
