@@ -19,8 +19,11 @@
 
 ```bash
 $ python detect.py --source data/images --conf 0.25 --weights model/Luck_yolov5s.pt
+'''
+当前版本未知物体的分数中不包含背景信息，在非极大值抑制阶段，通过前景分数是否大于阈值conf过滤掉多余的未知物体，缺点是当阈值
+过小（例如0.01）时会出现大量预测框，同时降低已知类别性能。
+'''
 ```
-当前版本未知物体的分数不中不包含背景信息，通过指定阈值conf控制
 </details>
 
 ### coco数据集
