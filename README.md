@@ -28,6 +28,7 @@ $ python detect.py --source data/images --conf 0.25 --weights model/Luck_yolov5s
 
 <details>
 <summary>正在测试的功能</summary>
+ 
 -  将背景信息融入未知物体的分数中.
 -  输出未知物体可能的父类信息，如将猴子预测为未知的动物。
 -  分类标签使用IOU分数。
