@@ -6,7 +6,7 @@
 <details>
   <summary> 不同风格图像与视频对比展示</summary>
 
-|Model                |Yolov5x |Luck-Yolov5x |
+|Model                |Yolov5x |OW-yolov5x |
 |---                  |---  |---  
 |漫画                 |![图片 46](https://user-images.githubusercontent.com/84908793/167087540-c109830f-3a0c-42d6-8948-61c96a3925aa.png) |![图片 47](https://user-images.githubusercontent.com/84908793/167087925-5332b077-9481-44a4-af93-0c1c4e175ff1.png)
 |电影                 |![图片 43](https://user-images.githubusercontent.com/84908793/167087873-bcba6a22-9798-4d51-b9f5-b610c8fe1a51.png) |![图片 37](https://user-images.githubusercontent.com/84908793/167087888-e4749d62-4bec-47ab-b235-9dcd45cd5440.png)
@@ -18,7 +18,7 @@
   <summary> 推理示例</summary>
 
 ```bash
-$ python detect.py --source data/images --conf 0.25 --weights model/Luck_yolov5s.pt
+$ python detect.py --source data/images --conf 0.25 --weights model/OW_yolov5s.pt
 '''
 当前版本未知物体的分数中不包含背景信息，在非极大值抑制阶段，通过前景分数是否大于阈值conf过滤掉多余的未知物体，缺点是当阈值
 过小（例如0.01）时会出现大量预测框，同时降低已知类别性能。
@@ -38,21 +38,21 @@ $ python detect.py --source data/images --conf 0.25 --weights model/Luck_yolov5s
 ### coco数据集
 |Model |size<br><sup>(pixels) |batch |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
 |---                  |---  |---    |---    |---   
-|YOLOv5s              |640  |128    |37.4   |56.8  
-|Luck-YOLOv5s      |640  |64     |37.5   |56.8
-|YOLOv5x              |640  |64    |50.7   |68.9   
-|Luck-YOLOv5x      |640  |64     |50.9   |69.3     
+|yolov5s              |640  |128    |37.4   |56.8  
+|OW-yolov5s      |640  |64     |37.5   |56.8
+|yolov5x              |640  |64    |50.7   |68.9   
+|OW-yolov5x      |640  |64     |50.9   |69.3     
 
 ### voc数据集
 |Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |pre(coco)
 |---                        |---  |---    |---       |---   
-|YOLOv5s                    |512  |62.4   |86.7      |5s
-|Luck-YOLOv5s            |512  |62.4   |86.8      |un-5s 
-|YOLOv5x                    |512  |74.6   |91.9/92.1 |5x
-|Luck-YOLOv5x            |512  |74.7   |92.2      |un-5
+|yolov5s                    |512  |62.4   |86.7      |5s
+|OW-yolov5s            |512  |62.4   |86.8      |OW-5s 
+|yolov5x                    |512  |74.6   |91.9/92.1 |5x
+|OW-yolov5x            |512  |74.7   |92.2      |OW-5x
 
   
 
 ### 预训练模型
-  [Luck-yolov5s](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/Luck-yolov5s.pt)<br>
-  [Luck-yolov5x](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/Luck-yolov5x.pt)<br>
+  [OW-yolov5s](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/Luck-yolov5s.pt)<br>
+  [OW-yolov5x](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/Luck-yolov5x.pt)<br>
