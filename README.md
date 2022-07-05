@@ -1,35 +1,28 @@
 ### 简介（Introduction）<br>
-    此为新版本，正逐步完善中<br>
-
-### 使用方法（Usage）
-<br> <br><br>
-
-
-
-<details open>
-  <summary> 推理示例</summary>
-
 ```bash
-$ python detect.py --source data/images --conf 0.25 --weights model/OW_yolov5s.pt
 '''
-当前版本
+此为新版本，正逐步完善中
 '''
 ```
+
+### 使用方法（Usage）
+<br>
+
+![屏幕截图 2022-07-05 221636](https://user-images.githubusercontent.com/84908793/177349420-70ce5e86-a5bc-401c-a3f0-578f2f55861b.jpg)
+
+<details>
+<summary>Usage 1</summary>
+ 
 </details>
 
 <details>
-<summary>即将推出</summary>
+<summary>Usage 2</summary>
  
-
 </details>
 
-### coco数据集
-
-
-### object365数据集
-
-
-  
-
-### 预训练模型
+<details>
+<summary>Usage 3</summary>
+ 
+</details>
+<br>
 
