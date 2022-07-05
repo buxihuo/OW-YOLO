@@ -54,5 +54,5 @@ $ python detect.py --source data/images --conf 0.25 --weights model/OW_yolov5s.p
   
 
 ### 预训练模型
-  [OW-yolov5s](https://github.com/buxihuo/OW-YOLO/releases/download/OW-YOLO/OW-yolov5s.pt)<br>
-  [OW-yolov5x](https://github.com/buxihuo/unknown-yolo/releases/download/unknown-yolo/OW-yolov5x.pt)<br>
+  [OW-yolov5s](https://github.com/buxihuo/OW-YOLO/releases/download/1.0/OW-yolov5s.pt)<br>
+  [OW-yolov5x](https://github.com/buxihuo/OW-YOLO/releases/download/1.0/OW-yolov5s.pt)<br>
