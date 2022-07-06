@@ -28,7 +28,7 @@
 
 # 性能（performance）
 
-## 1. precision curve
+## 1. 精度曲线（precision curve）
 
 ![下载 (5)](https://user-images.githubusercontent.com/84908793/177591053-a083a20c-6fed-4beb-aff5-80e0e54bace5.png)
 
@@ -42,8 +42,8 @@
  
 </details>
 
-## 2. racall curve
+## 2. 召回率曲线（recall curve）
 
 ![下载 (6)](https://user-images.githubusercontent.com/84908793/177591425-b226222c-56b1-4036-9d0a-ed5aaab31f4e.png)
 
-## 2. map
+## 3. map
