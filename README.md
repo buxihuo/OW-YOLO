@@ -1,14 +1,14 @@
-### 简介（Introduction）<br>
+# 简介（Introduction）<br>
 ```bash
 '''
 此为新版本，正逐步完善中
 '''
 ```
 
-### 使用方法（Usage）
+# 使用方法（Usage）
 <br>
 
-![屏幕截图 2022-07-05 221636](https://user-images.githubusercontent.com/84908793/177349420-70ce5e86-a5bc-401c-a3f0-578f2f55861b.jpg)
+![屏幕截图 2022-07-06 234014](https://user-images.githubusercontent.com/84908793/177590154-9956552a-3f5b-43a1-9598-9d980eb41fcf.jpg)
 
 <details>
 <summary>Usage 1</summary>
@@ -26,3 +26,21 @@
 </details>
 <br>
 
+# 性能（performance）
+
+## 1. precision curve
+
+![下载 (5)](https://user-images.githubusercontent.com/84908793/177591053-a083a20c-6fed-4beb-aff5-80e0e54bace5.png)
+
+<details>
+<summary>说明</summary>
+ 
+   模型在coco(80类)数据集训练，在object365(365类)进行测试,将coco上对应的类作为已知类，其他的作为未知类。其中灰色是已知类别的精度曲线，红色为未知类别精度曲线，蓝色代表所有类别的平均值。
+ 
+</details>
+
+## 2. racall curve
+
+![下载 (6)](https://user-images.githubusercontent.com/84908793/177591425-b226222c-56b1-4036-9d0a-ed5aaab31f4e.png)
+
+## 2. map
