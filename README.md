@@ -47,3 +47,37 @@
 ![下载 (6)](https://user-images.githubusercontent.com/84908793/177591425-b226222c-56b1-4036-9d0a-ed5aaab31f4e.png)
 
 ## 3. map
+
+### 1) coco数据集性能对比
+
+|Model                        |Param |Flops  |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 
+|---                          |---   |---    |---                     |---   
+|Detr                         |34    |78     |39. 4                   |-
+|OW-detr                      |-     |-      |33.1(-6.3)              |-  
+|yolov5s                      |      |       |38.46                   |56.8  
+|OW-yolov5s(only known)       |      |       |38.46                   |57.16
+|OW-yolov5s<br>(unknown background confidence = 0.001)      |      |       |37.36                 |54.82
+|OW-yolov5s<br>(unknown background confidence = 0.01)       |      |       |38.29                 |56.80
+|OW-yolov5s<br>(unknown background confidence = 0.05)       |      |       |38.42                 |57.09
+|OW-yolov5s<br>(unknown background confidence = 0.1)        |      |       |38.44                 |57.14
+|OW-yolov5s<br>(unknown background confidence = 0.25)       |      |       |38.45                 |57.16
+|OW-yolov5s<br>(unknown background confidence = 0.5)        |      |       |38.46                 |57.17
+
+
+
+### 2) object365 数据集
+
+|Model                                                      |unknown recall |unknown ap50  |all mAP<sup>val<br>0.5:0.95 |all mAP<sup><br>0.5 
+|---                                                        |---            |---           |---                         |---   
+|yolov5s                                                    |       -       |   -          |                            |
+|OW-yolov5s(only known)                                     |       -       |   -          |                            |
+|OW-yolov5s<br>(unknown background confidence = 0.001)      |               |              |                            |
+|OW-yolov5s<br>(unknown background confidence = 0.01)       |               |              |                            |
+|OW-yolov5s<br>(unknown background confidence = 0.05)       |               |              |                            |
+|OW-yolov5s<br>(unknown background confidence = 0.1)        |               |              |                            |
+|OW-yolov5s<br>(unknown background confidence = 0.25)       |               |              |                            |
+|OW-yolov5s<br>(unknown background confidence = 0.5)        |               |              |                            |
+
+
+### 3) 其他版本
+
