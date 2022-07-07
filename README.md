@@ -79,11 +79,11 @@ Give the detector a preliminary cognitive ability to distinguish between known a
 
 ### 2) object365 数据集
 
-|Model                                                      |unknown recall |unknown ap50  |all mAP<sup>val<br>0.5:0.95 |all mAP<sup><br>0.5 
-|---                                                        |---            |---           |---                         |---   
-|yolov5s                                                    |       -       |   -          |                            |
-|OW-yolov5s(only known)                                     |       -       |   -          |                            |
-|OW-yolov5s<br>(unknown background confidence = 0.001)      |               |              |                            |
+|Model                                                      |unknown recall     |unknown ap50  |all mAP<sup>val<br>0.5:0.95 |all mAP<sup><br>0.5 
+|---                                                        |---                |---           |---                         |---   
+|yolov5s                                                    |       -           |   -          |                            |
+|OW-yolov5s(only known)                                     |       -           |   -          |                            |
+|OW-yolov5s<br>(unknown background confidence = 0.001)      |0.61               |0.072             |22.1                            |31.7
 |OW-yolov5s<br>(unknown background confidence = 0.01)       |               |              |                            |
 |OW-yolov5s<br>(unknown background confidence = 0.05)       |               |              |                            | 
 |OW-yolov5s<br>(unknown background confidence = 0.1)        |0.23               |12.3              |22.2                            |32.3
