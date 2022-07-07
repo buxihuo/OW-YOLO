@@ -789,7 +789,7 @@ def non_max_suppression(prediction,
 
     bs = prediction.shape[0]  # batch size
     nc = prediction.shape[2] - 5  # number of classes
-    # prediction[..., 85] *= ((prediction[..., 4] ** 0.5)
+    prediction[..., 85:86] *= (prediction[..., 4:5] > 0.5)
     xc = (prediction[..., 4] > conf_thres) + (prediction[..., 85] > conf_thres) # candidates
 
     # Checks
