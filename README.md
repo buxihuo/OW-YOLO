@@ -1,5 +1,6 @@
 # 简介（Introduction）<br>
-赋予检测器初步认知能力，区分已知与未知物体，已实现的检测器有:yolov5
+赋予检测器初步认知能力，区分已知与未知物体，已实现的检测器有:yolov5<br>
+Give the detector a preliminary cognitive ability to distinguish between known and unknown objects.
 ```bash
 '''
 此为新版本，正在合并用于测试和推理的参数，即将完成，旧版见OW-yolov5-6.0分支。
