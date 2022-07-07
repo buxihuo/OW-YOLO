@@ -84,8 +84,8 @@
 |OW-yolov5s(only known)                                     |       -       |   -          |                            |
 |OW-yolov5s<br>(unknown background confidence = 0.001)      |               |              |                            |
 |OW-yolov5s<br>(unknown background confidence = 0.01)       |               |              |                            |
-|OW-yolov5s<br>(unknown background confidence = 0.05)       |               |              |                            |
-|OW-yolov5s<br>(unknown background confidence = 0.1)        |               |              |                            |
+|OW-yolov5s<br>(unknown background confidence = 0.05)       |               |              |                            | 
+|OW-yolov5s<br>(unknown background confidence = 0.1)        |0.23               |12.3              |22.2                            |32.3
 |OW-yolov5s<br>(unknown background confidence = 0.25)       |0.15               |13.5              |22.2                            |32.3
 |OW-yolov5s<br>(unknown background confidence = 0.5)        |0.08               |13.5              |22.2                            |32.3
 
