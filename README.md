@@ -1,7 +1,8 @@
 # 简介（Introduction）<br>
+赋予检测器初步认知能力，区分已知与未知物体，已实现的检测器有:yolov5
 ```bash
 '''
-此为新版本，正逐步完善中
+此为新版本，正在合并用于测试和推理的参数，即将完成，旧版见OW-yolov5-6.0分支。
 '''
 ```
 
@@ -15,9 +16,9 @@
  
 </details>
 
-<details>
+<details open>
 <summary>Usage 2</summary>
- 
+
 </details>
 
 <details>
@@ -25,6 +26,16 @@
  
 </details>
 <br>
+
+# 快速开始
+
+## 1. 安装
+
+## 2. 推理
+
+## 3. 测试
+
+## 4. 训练
 
 # 性能（performance）
 
@@ -75,8 +86,8 @@
 |OW-yolov5s<br>(unknown background confidence = 0.01)       |               |              |                            |
 |OW-yolov5s<br>(unknown background confidence = 0.05)       |               |              |                            |
 |OW-yolov5s<br>(unknown background confidence = 0.1)        |               |              |                            |
-|OW-yolov5s<br>(unknown background confidence = 0.25)       |               |              |                            |
-|OW-yolov5s<br>(unknown background confidence = 0.5)        |               |              |                            |
+|OW-yolov5s<br>(unknown background confidence = 0.25)       |0.15               |13.5              |22.2                            |32.3
+|OW-yolov5s<br>(unknown background confidence = 0.5)        |0.08               |13.5              |22.2                            |32.3
 
 
 ### 3) 其他版本
