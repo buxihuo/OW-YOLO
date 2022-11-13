@@ -1,0 +1,195 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/coco  # dataset root dir
+train: train2017.txt  # train images (relative to 'path') 118287 images
+val: val2017.txt  # val images (relative to 'path') 5000 images
+test: test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: airplane
+  5: bus
+  6: train
+  7: truck
+  8: boat
+  9: traffic light
+  10: fire hydrant
+  11: stop sign
+  12: parking meter
+  13: bench
+  14: bird
+  15: cat
+  16: dog
+  17: horse
+  18: sheep
+  19: cow
+  20: elephant
+  21: bear
+  22: zebra
+  23: giraffe
+  24: backpack
+  25: umbrella
+  26: handbag
+  27: tie
+  28: suitcase
+  29: frisbee
+  30: skis
+  31: snowboard
+  32: sports ball
+  33: kite
+  34: baseball bat
+  35: baseball glove
+  36: skateboard
+  37: surfboard
+  38: tennis racket
+  39: bottle
+  40: wine glass
+  41: cup
+  42: fork
+  43: knife
+  44: spoon
+  45: bowl
+  46: banana
+  47: apple
+  48: sandwich
+  49: orange
+  50: broccoli
+  51: carrot
+  52: hot dog
+  53: pizza
+  54: donut
+  55: cake
+  56: chair
+  57: couch
+  58: potted plant
+  59: bed
+  60: dining table
+  61: toilet
+  62: tv
+  63: laptop
+  64: mouse
+  65: remote
+  66: keyboard
+  67: cell phone
+  68: microwave
+  69: oven
+  70: toaster
+  71: sink
+  72: refrigerator
+  73: book
+  74: clock
+  75: vase
+  76: scissors
+  77: teddy bear
+  78: hair drier
+  79: toothbrush
+  80: unknown
+  81: unknown
+  82: unknown
+  83: unknown
+  84: unknown
+  85: unknown
+  86: unknown
+  87: unknown
+  88: unknown
+  89: unknown
+  90: unknown
+  91: unknown
+  92: unknown
+  93: unknown
+  94: unknown
+  95: unknown
+  96: unknown
+  97: unknown
+  98: unknown
+  99: unknown
+  100: unknown
+  101: unknown
+  102: unknown
+  103: unknown
+  104: unknown
+  105: unknown
+  106: unknown
+  107: unknown
+  108: unknown
+  109: unknown
+  110: unknown
+  111: unknown
+  112: unknown
+  113: unknown
+  114: unknown
+  115: unknown
+  116: unknown
+  117: unknown
+  118: unknown
+  119: unknown
+  120: unknown
+  121: unknown
+  122: unknown
+  123: unknown
+  124: unknown
+  125: unknown
+  126: unknown
+  127: unknown
+  128: unknown
+  129: unknown
+  130: unknown
+  131: unknown
+  132: unknown
+  133: unknown
+  134: unknown
+  135: unknown
+  136: unknown
+  137: unknown
+  138: unknown
+  139: unknown
+  140: unknown
+  141: unknown
+  142: unknown
+  143: unknown
+  144: unknown
+  145: unknown
+  146: unknown
+  147: unknown
+  148: unknown
+  149: unknown
+  150: unknown
+  151: unknown
+  152: unknown
+  153: unknown
+  154: unknown
+  155: unknown
+  156: unknown
+  157: unknown
+  158: unknown
+  159: unknown
+
+# Download script/URL (optional)
+download: |
+  from utils.general import download, Path
+
+
+  # Download labels
+  segments = False  # segment or box labels
+  dir = Path(yaml['path'])  # dataset root dir
+  url = 'https://github.com/ultralytics/yolov5/releases/download/v1.0/'
+  urls = [url + ('coco2017labels-segments.zip' if segments else 'coco2017labels.zip')]  # labels
+  download(urls, dir=dir.parent)
+
+  # Download data
+  urls = ['http://images.cocodataset.org/zips/train2017.zip',  # 19G, 118k images
+          'http://images.cocodataset.org/zips/val2017.zip',  # 1G, 5k images
+          'http://images.cocodataset.org/zips/test2017.zip']  # 7G, 41k images (optional)
+  download(urls, dir=dir / 'images', threads=3)
