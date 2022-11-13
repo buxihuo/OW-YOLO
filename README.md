@@ -18,6 +18,6 @@ $ python detect.py --source data/images --weights s-coco.pt --unknownconf 0.25 -
 4. [demo4](https://b23.tv/MfpEmAm)
 ## 2. 预训练模型
 
-[s-coco.pt](https://github.com/buxihuo/OW-YOLO/releases/download/v1.1/s-clsiou-coco.pt)<br>
-[m-obj365.pt](https://github.com/buxihuo/OW-YOLO/releases/download/v1.1/x-clshard-coco.pt)<br>
+[s-coco.pt](https://github.com/buxihuo/OW-YOLO/releases/download/0.1/s-coco.pt)<br>
+[m-obj365.pt](https://github.com/buxihuo/OW-YOLO/releases/download/0.1/m-obj365.pt)<br>
 
