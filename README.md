@@ -8,7 +8,16 @@
 ```bash
 $ python detect.py --source data/images --weights m-obj365.pt --unknownconf 0.45 --conf 0.25 
 $ python detect.py --source data/images --weights s-coco.pt --unknownconf 0.25 --conf 0.25
-# 参数说明,稍后更新
+'''
+参数解读
+unknownconf: 当网络预测的“不知道”分数大于此阈值时预测为不知道，否则输出已知分类。
+1）与已知类精度关系：当已知类精度越高时，“不知道”在已知类上发生的情况将越少，预测未知类时可以设定更低的unknownconf而不影响已知类性能。
+2）与训练集大小关系：训练集越丰富，预测未知类的能力越强
+其他参数：
+1）非极大值抑制：默认类内NMS（非极大值抑制）iou阈值为0.45，参数为iou；同时进行类间NMS，iou阈值为0.75，后续将提供参数接口。
+2）不知道的物体类名：可在detect文件中修改，后续将提供接口。
+              
+'''
 
 ```
 视频展示：【哔哩哔哩】
