@@ -42,9 +42,9 @@ unknownconf: 当网络预测的“不知道”分数大于此阈值时预测为�
 ### coco数据集性能
 |Model                       |size<br><sup>(pixels)|mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
 |---                         |---                  |---                     |--- 
-|yolov5+yolov6-s             |640                  |                        |
-|OW-yolov5+yolov6-s          |640                  |                        |
-|OW-yolov5+yolov6-s-la       |640                  |                        |
+|yolov8-s             |640                  |                        |
+|OW-yolov8-s          |640                  |                        |
+|OW-yolov8-s-la       |640                  |                        |
 ```bash
 la : label attention
 
