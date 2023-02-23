@@ -1,3 +1,4 @@
+![exp](https://user-images.githubusercontent.com/84908793/220821554-c7fd8506-0c4a-4668-a7a7-49c63ef5f0c6.png)
 # 快速开始
 
 ## 1. 安装
@@ -28,10 +29,8 @@ unknownconf: 当网络预测的“不知道”分数大于此阈值时预测为�
 <details> 
 <summary> 视频展示</summary>
 
-1. [demo1](https://www.bilibili.com/video/BV1rN4y1c73W/?share_source=copy_web)
+1. [demo1](https://b23.tv/MfpEmAm)
 2. [demo2](https://www.bilibili.com/video/BV1Nm4y1P7UW/?share_source=copy_web&vd_source=4f63c00122ad06d30c832c5c6f903637)
-3. [demo3](https://www.bilibili.com/video/BV1rP4y1U7to/?share_source=copy_web&vd_source=4f63c00122ad06d30c832c5c6f903637)
-4. [demo4](https://b23.tv/MfpEmAm)
 
 </details>
 
