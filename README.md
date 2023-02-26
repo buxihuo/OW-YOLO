@@ -43,7 +43,7 @@ unknownconf: 当网络预测的“不知道”分数大于此阈值时预测为�
 |Model                       |size<br><sup>(pixels)|mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
 |---                         |---                  |---                     |--- 
 |yolov8-n             |640                  |37.3                        |52.6
-|OW-yolov8-n          |640                  |37.9(only known 38)                        |53.7(only known 53.9)
+|OW-yolov8-n          |640                  |37.9 (only known 38)                        |53.7 (only known 53.9)
 |OW-yolov8-n-la       |640                  |                        |
 ```bash
 la : label attention
