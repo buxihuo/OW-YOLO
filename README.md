@@ -1,4 +1,5 @@
-![exp](https://user-images.githubusercontent.com/84908793/220821554-c7fd8506-0c4a-4668-a7a7-49c63ef5f0c6.png)
+![015](https://user-images.githubusercontent.com/84908793/221391769-2503d415-60c3-4c4b-a432-a4f0fdfa186c.png)
+
 # 快速开始
 
 ## 1. 安装
@@ -41,9 +42,9 @@ unknownconf: 当网络预测的“不知道”分数大于此阈值时预测为�
 ### coco数据集性能
 |Model                       |size<br><sup>(pixels)|mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |
 |---                         |---                  |---                     |--- 
-|yolov8-s             |640                  |                        |
-|OW-yolov8-s          |640                  |                        |
-|OW-yolov8-s-la       |640                  |                        |
+|yolov8-n             |640                  |37.3                        |52.6
+|OW-yolov8-n          |640                  |37.9(only known 38)                        |53.7(only known 53.9)
+|OW-yolov8-n-la       |640                  |                        |
 ```bash
 la : label attention
 
